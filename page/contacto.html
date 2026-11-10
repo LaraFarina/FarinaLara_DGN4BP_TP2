@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Casa de Papel — Contacto</title>
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="logo"><a href="../index.html">La Casa de Papel</a></h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="serie.html">La Serie</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="temporadas.html">Temporadas</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Escribinos</h2>
+
+            <p>¿Tenés comentarios sobre la serie, correcciones al contenido del sitio o simplemente querés compartir tu teoría sobre La Casa de Papel? Completá el formulario y te respondemos a la brevedad.</p>
+
+            <form action="confirmacion.html" method="get">
+                <div class="campo col col-2">
+                    <label for="nombre">Nombre</label>
+                    <input class="caja" type="text" id="nombre" name="nombre" placeholder="Ej: Sergio" minlength="2" maxlength="40" required>
+                </div><!--
+                --><div class="campo col col-2">
+                    <label for="apellido">Apellido</label>
+                    <input class="caja" type="text" id="apellido" name="apellido" placeholder="Ej: Marquina" minlength="2" maxlength="40" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input class="caja" type="email" id="email" name="email" placeholder="nombre@correo.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="caja caja-larga" id="mensaje" name="mensaje" placeholder="Escribí tu comentario o tu teoría sobre la serie" minlength="10" maxlength="500" required></textarea>
+                </div>
+
+                <button class="boton" type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+        <section>
+            <p class="etiqueta">Redes y Plataformas</p>
+            <h2>Seguí la Serie</h2>
+
+            <p>La serie cuenta con presencia oficial en las principales redes sociales y está disponible para ver en su totalidad en Netflix. A continuación, los canales oficiales para mantenerse al día con novedades, spin-offs y contenido detrás de escena.</p>
+
+            <ul class="plataformas col col-ancha">
+                <li>
+                    <strong>Netflix</strong>
+                    <p>Plataforma oficial — todas las partes disponibles — <a href="https://www.netflix.com" target="_blank">netflix.com</a></p>
+                </li>
+                <li>
+                    <strong>Instagram</strong>
+                    <p>@lacasadepapel — fotos del rodaje, personajes y novedades</p>
+                </li>
+                <li>
+                    <strong>Twitter / X</strong>
+                    <p>@LaCasaDePapelTV — actualizaciones y participación de fans</p>
+                </li>
+                <li>
+                    <strong>Facebook</strong>
+                    <p>La Casa de Papel Oficial — comunidad de fans hispanoparlantes</p>
+                </li>
+                <li>
+                    <strong>YouTube Netflix</strong>
+                    <p>Tráilers oficiales, entrevistas con el elenco y contenido exclusivo</p>
+                </li>
+            </ul>
+            
+            <aside class="col col-angosta">
+                <h3>También en</h3>
+                <ul>
+                    <li><strong>Berlín (2023)</strong> — Spin-off disponible en Netflix</li>
+                    <li><strong>La Casa de Papel: Corea</strong> — Versión coreana en Netflix</li>
+                    <li><strong>Netflix Tudum</strong> — Eventos y contenido oficial de fans</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>La Casa de Papel &copy; - Todos los derechos reservados</p>
+        <p>Página hecha por Lara Farina - DGN4BP - 2026</p>
+    </footer>
+
+</body>
+</html>

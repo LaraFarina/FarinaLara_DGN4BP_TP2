@@ -1,0 +1,66 @@
+form {
+    margin-top: 28px;
+}
+
+.campo {
+    margin: 0 1% 24px;
+}
+
+.campo label {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #E9C46A;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.caja {
+    display: block;
+    width: 100%;
+    background-color: #0A0000;
+    border: 1px solid #3A0F0F;
+    padding: 12px 14px;
+    color: #F0EDE6;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 16px;
+}
+
+.caja:hover,
+.caja:focus {
+    border-color: #D62828;
+    outline: none;
+}
+
+.caja-larga {
+    height: 160px;
+}
+
+form .boton {
+    margin-left: 1%;
+}
+
+.plataformas {
+    list-style: none;
+}
+
+.plataformas li {
+    padding: 10px 0;
+    border-bottom: 1px solid #1A0505;
+}
+
+.plataformas li strong {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #D62828;
+    margin-bottom: 2px;
+}
+
+.plataformas li p {
+    color: #8A8480;
+    font-size: 16px;
+    margin-bottom: 0;
+}

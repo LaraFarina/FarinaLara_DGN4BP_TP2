@@ -1,0 +1,24 @@
+.actor {
+    font-style: italic;
+    font-weight: bold;
+    color: #6B6460;
+    margin-bottom: 12px;
+}
+
+.secundarios ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.secundarios li {
+    color: #9A9490;
+    padding: 6px 0;
+    border-bottom: 1px solid #1A0505;
+}
+
+.secundarios li strong {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    color: #E9C46A;
+}

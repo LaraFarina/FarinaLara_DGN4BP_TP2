@@ -1,0 +1,15 @@
+.reproductor {
+    background-color: #100505;
+    border-top: 2px solid #D62828;
+    padding: 28px 30px;
+}
+
+.reproductor h2 {
+    margin-bottom: 8px;
+}
+
+.reproductor audio {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}

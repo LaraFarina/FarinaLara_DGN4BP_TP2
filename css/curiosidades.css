@@ -1,0 +1,8 @@
+.evento img {
+    margin-bottom: 16px;
+    opacity: 0.85;
+}
+
+.evento:hover img {
+    opacity: 1;
+}
