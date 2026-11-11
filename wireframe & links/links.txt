@@ -1,4 +1,4 @@
  Trabajo hecho por Lara Farina - DGN4BP
 
  Link Vercel: https://farinalaradgn4bptp1.vercel.app/index.html
- Link GitHub: https://github.com/LaraFarina/FarinaLara_DGN4BP_TP1
+ Link GitHub: https://github.com/LaraFarina/FarinaLara_DGN4BP_TP2
